@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <link rel="stylesheet" href="mystyle2.css"/>
+  <title>visittkort</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+<section class="navbar">
+  <a href="https://github.com/FelixKnutsen/HowWeRoll"><h2>UiA | Gruppe 7B</h2></a>
+  <ul>
+    <li><a href="https://github.com/imttv/imttv.github.io#how-we-roll" target="_blank">Github</a></li>
+    <li><a href="visittkort.html">Visittkort</a></li>
+    <li><a class="active" href="index.html">How We Roll</a></li>
+    <li><a href="hwr-report.html">HWR Report</a></li>
+  </ul>
+</section>
+
+
+
+<div id="Rektangel" >
+  <h2>FELIX</h2>
+  <img src="C:\Users\Thevi\Downloads\businessman.jpg"  width: 50px; height: 50px;>
+
+</div>
+<div id="Rektangel2" >
+  <h2>THEVI</h2>
+</div>
+<div id="Rektangel3" >
+  <h2>ADRIAN</h2>
+</div>
+
+<script>function myFunction3() {
+var x = document.getElementById("Rektangel");
+if (x.style.display === "none") {
+x.style.display = "block";
+} else {
+x.style.display = "none";
+}
+}
+</script>
+
+<script>function myFunction() {
+var x = document.getElementById("Rektangel2");
+if (x.style.display === "none") {
+x.style.display = "block";
+} else {
+x.style.display = "none";
+}
+}
+</script>
+<script>function myFunction2() {
+var x = document.getElementById("Rektangel3");
+if (x.style.display === "none") {
+x.style.display = "block";
+} else {
+x.style.display = "none";
+}
+}
+</script>
+
+
+<div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <div></div>
+    <button class="theviKnapp" onclick="myFunction()">THEVI</button>
+    <button class="adrianKnapp" onclick="myFunction2()">ADRIAN</button>
+    <button class="bombaclat" onclick="myFunction3()">FELIX</button>
+
+  </div>
+</div>
+
+</body>
+</html>
